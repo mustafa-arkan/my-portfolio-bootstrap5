@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-5 project-1</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="style.css" class="src">
+</head>
+<body>
+
+<!-- ---------------------------------------------------------------start of navbar section----------------------- -->
+
+<nav class="navbar navbar-expand-lg bg-light">   <!--nav menu er overall design like bg color height width color etc control korbe-->
+        
+    
+    <div class="container-fluid "> <!--parent div-->  
+            
+        <a class="navbar-brand text-capitalize" href="#">mustafa arkan</a>    <!--Logo of mine-->
+
+        <!-- start of hamburber menu.....device choto korle hamburber menu asar jonno  -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          
+        </button>
+
+        <!-- end of hamburger menu -->
+
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">     <!--screen size choto korle menu gula colaspe hoye gayeb hoi jabe-->
+
+
+
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">   <!--parent ul jetar modde list akare sob menu niche-->
+
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+
+              <!-- end of home menu -->
+
+
+              <li class="nav-item">
+                <a class="nav-link text-capitalize" href="#">about us</a>
+              </li>
+
+              <!-- end of link menu -->
+
+
+              <!-- start of dropdown menu -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+                </a>
+                
+                <!-- dropdown menu er modde list -->
+
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Web Design & Development</a></li>
+                  <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else</a></li>
+            </ul>
+
+            <!-- drop down menu list end -->
+
+            <li class="nav-item">
+                <a class="nav-link text-capitalize" href="#">Gallery</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-capitalize" href="#">contact us</a>
+              </li>
+
+              
+
+            </ul>        <!--parent ul jetar modde list akare sob menu niche-->
+
+          </div>
+        </div>
+      </nav>
+
+
+<!-- ---------------------------------------------------------------end of navbar section----------------------- -->
+<!-- ---------------------------------------------------------------start of header section with carousel----------------------- -->
+
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/lon.jpg" class="d-block w-100 " alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/lon.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/lon.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!-- ----------------------------end of carousel-----------------image 240*90px -->
+
+
+<!-- --------------start of about us section -->
+
+
+
+<section class="my-5">
+
+
+<div class="text-center">
+
+    <h1 class="display-4">About Us</h1>
+
+<hr class="w-25 mx-auto" />
+
+
+</div>
+<!-- ---------about e ekta images and kicho text right side e -->
+
+<div class="container ">
+
+
+     <div class="row my-5 ">
+
+        <div class="col-lg-6 col-md-6 col-12 col-xxl-6  ">
+          
+
+
+            <img src="images/c12.jpg" alt="about us" class="img-fluid img-about w-100 ">
+          
+
+
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
+            <h2>My Journey</h2>
+             <p>Eos rebum eos et dolores et nonumy sanctus ut dolore dolore, sea sit invidunt eos at at voluptua consetetur labore invidunt. Sed ea vero lorem et et erat aliquyam voluptua. Sadipscing gubergren labore voluptua dolor stet dolor duo kasd. Aliquyam dolor no dolor sea ea elitr. Et duo amet nonumy.</p>
+             <button type="button" class="btn btn-outline-success " data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Who am I">See more</button>
+
+          
+  
+          </div>
+
+
+
+
+
+
+     </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+<section class="my-5">
+
+
+  <div class="text-center">
+  
+      <h1 class="display-4">Services</h1>
+  
+  <hr class="w-25 mx-auto" />
+  
+  
+  </div>
+
+<div class="container">
+   <div class="row my-5 mx-auto">
+<!-- horizontal card design -->
+      <div class="col-md-4 col-10 ">
+
+
+
+
+
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="images/lon.jpg" class="img-fluid rounded-start h-100" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- end of horizontal card design -->
+      </div>
+      <div class="col-md-4 col-10 ">
+
+
+
+
+
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/lon.jpg" class="img-fluid rounded-start h-100" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+
+       
+
+
+
+
+
+      </div>
+
+
+
+
+      <div class="col-md-4 col-10 ">
+
+
+
+
+
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/lon.jpg" class="img-fluid rounded-start h-100" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+
+       
+
+
+
+
+
+      </div>
+        <!-- end of horizontal card design -->
+        
+        
+        <!-- end of horizontal card design -->
+              </div>
+
+
+
+              <div class="mx-auto">
+
+                <button type="button" class="btn btn-outline-success  " data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Who am I">See more</button>
+
+              </div>
+ 
+
+
+
+   </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+
+<script>const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))</script>
+
+</body>
+</html>
